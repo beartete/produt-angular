@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "produto": {
+    "produtos": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/produto",
+            "outputPath": "dist/produtos",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -61,10 +61,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "produto:build:production"
+              "browserTarget": "produtos:build:production"
             },
             "development": {
-              "browserTarget": "produto:build:development"
+              "browserTarget": "produtos:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -72,7 +72,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "produto:build"
+            "browserTarget": "produtos:build"
           }
         },
         "test": {
@@ -92,11 +92,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "baseHref": "/produt-angular/"
         }
       }
     }
   },
   "cli": {
-    "analytics": "6ff1e2ab-c5ee-4931-b586-745660cc516f"
+    "analytics": "2c7d1c24-03ff-4307-af46-3bf1a6b7cafd"
   }
 }

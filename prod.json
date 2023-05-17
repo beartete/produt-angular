@@ -1,0 +1,44 @@
+{
+  "produtos" : [
+  { 
+      "id" : 1,
+      "img" : "",
+      "name" : "Morango",
+      "peso" : "250g",
+      "preço" : "R$ 15,76",
+      "quantidade" : 10
+  },
+  {
+      "id" : 2,
+      "img" : "",
+      "name" : "Banana",
+      "peso" : "300g",
+      "preço" : "R$ 9,99",
+      "quantidade" : 10
+  },
+  {
+      "id" : 3,
+      "img" : "",
+      "name" : "Mirtilo",
+      "peso" : "125g",
+      "preço" : "R$ 16,99",
+      "quantidade" : 10 
+  },
+  {
+      "id" : 4,
+      "img" : "",
+      "name" : "Mamão Formosa",
+      "peso" : "1,80kg",
+      "preço" : "R$ 26,98",
+      "quantidade" : 10
+  },
+  {
+      "id" : 5,
+      "img" : "",
+      "name" : "Amora",
+      "peso" : "400g",
+      "preço" : "R$ 17,99",
+      "quantidade" : 10
+  }
+  ]
+}

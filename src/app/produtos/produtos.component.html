@@ -1,0 +1,28 @@
+<br>
+<h1>Quitanda da Dona Ana</h1>
+<br>
+<div class="container text-center">
+    <table class="table table-dark">
+        <thead class="thead-dark">
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Produto</th>
+            <th scope="col">Nome</th>
+            <th scope="col">Peso</th>
+            <th scope="col">Preço</th>
+            <th scope="col">Quantidade</th>
+          </tr>
+        </thead>
+<tbody>
+    <tr *ngFor="let Produto of produtos">
+      <th scope="row">{{Produto.id}}</th>
+      <td><img src="{{Produto.img}}" alt="" width="80px" height="80px"></td>
+      <td>{{Produto.name}}</td>
+      <td>{{Produto.peso}}</td>
+      <td>{{Produto.preco}}</td>
+      <td>{{Produto.quantidade}}</td>
+    </tr>
+  </tbody>
+  
+      </table>
+</div>
